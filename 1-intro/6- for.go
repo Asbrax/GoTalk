@@ -1,6 +1,3 @@
-// `for` is Go's only looping construct. Here are
-// some basic types of `for` loops.
-
 package main
 
 import "fmt"
@@ -14,21 +11,18 @@ func main() {
 		i = i + 1
 	}
 
-    fmt.Println("--------")
+	fmt.Println("--------")
 	for j := 3; j > 0; j-- {
 		fmt.Println(j)
 	}
 
-	
-    
-    fmt.Println("--------")
+	fmt.Println("--------")
 	for {
 		fmt.Println("loop")
 		break
 	}
 
-    
-    fmt.Println("--------")
+	fmt.Println("--------")
 	for n := range 6 {
 		if n%2 == 0 {
 			continue

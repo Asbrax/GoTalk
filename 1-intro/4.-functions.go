@@ -3,10 +3,12 @@ package main
 import "fmt"
 
 //func add(x, y int) int {
-func add(x int, y int) int {
-	return x + y
+func suma(x, y int) string {
+
+	fmt.Println(y + x)
+	return "Hola Huichapan"
 }
 
 func main() {
-	fmt.Println(add(42, 13))
+	fmt.Println(suma(10, 15))
 }
